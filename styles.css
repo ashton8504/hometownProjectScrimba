@@ -57,6 +57,7 @@ p{
 }
 .flex-container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     background-color: #d5ddd3;
