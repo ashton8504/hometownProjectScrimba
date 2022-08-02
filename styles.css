@@ -67,14 +67,20 @@ p{
 .photo{
     text-align: center;
     border: 2px solid rgb(28, 28, 112);
+    transition: all .5s;
 }
+.photo:hover {
+    transform: scale(1.2) rotate(360deg);
+}
+
 #header{
     background-image: url("images/granville-image1.jpg");
     background-size: cover;
-    padding: 10px 0 200px 0;
+    padding: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -85,6 +91,7 @@ p{
     padding: 5px 10px 5px 10px;
     border-radius: 10px;
     opacity: .93;
+    font-size: 40px;
 }
 .paragraph-style{
     color: whitesmoke;
@@ -97,6 +104,7 @@ p{
     font-size: 20px;
     text-shadow: 1px 2px black;
     opacity: .95;
+    max-width: 1000px;
 }
 .guide-section, .footer-style, p{
     font-family: Goudy, sans-serif;
@@ -111,31 +119,3 @@ a:hover {
 .gville-link:hover{
     color: rgb(10, 9, 7)
 }
-.photo:hover {
-    transform: scale(1.2) rotate(360deg);
-    transition: all .5s;
-}
-
-
-
-
-
-
-
-
-
-
-/* Shadows Into Light / lobster / square peg  for font
-.main-content {
-    width: 95%;
-    max-width: 1000px;
-    margin: 1.1em auto;
-    
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  }
-
-  https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit */
-
-  /**
